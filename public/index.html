@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OraBox Shopify Studio</title>
+  <meta name="description" content="Focused Shopify apps for merchants — built by OraBox Shopify Studio." />
+  <style>
+    :root {
+      --bg0: #0c1210;
+      --bg1: #15201a;
+      --fg: #eef6f1;
+      --muted: #8fa89a;
+      --accent: #3dd68c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--fg);
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(900px 480px at 70% -20%, #1e3a2c 0%, transparent 55%),
+        linear-gradient(165deg, var(--bg1), var(--bg0));
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: clamp(3rem, 12vh, 7rem) 1.5rem 3rem;
+    }
+    .brand {
+      font-size: 0.95rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    h1 {
+      font-family: "Iowan Old Style", Palatino, Georgia, serif;
+      font-size: clamp(2.6rem, 8vw, 3.8rem);
+      letter-spacing: -0.03em;
+      margin: 0.75rem 0 0.75rem;
+    }
+    p { color: var(--muted); line-height: 1.55; max-width: 36rem; }
+    ul { list-style: none; padding: 0; margin: 2rem 0 0; }
+    li { margin: 0.75rem 0; }
+    a {
+      color: var(--fg);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(61, 214, 140, 0.35);
+    }
+    a:hover { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">OraBox Shopify Studio</div>
+    <h1>Shopify apps, shipped like a studio.</h1>
+    <p>One org. Three repos. Folder per product. New merchant apps without reinventing the stack.</p>
+    <ul>
+      <li><a href="/apps/catapro/">CataPro</a> — images to products</li>
+    </ul>
+  </main>
+</body>
+</html>
